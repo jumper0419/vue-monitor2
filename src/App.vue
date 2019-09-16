@@ -1,23 +1,31 @@
 <template>
   <div id="app">
-    <head-bar></head-bar>
-    <router-view/>
+    <v-head></v-head>
+    <div class="content">
+      <v-side></v-side>
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import Head from "components/content/layout/Head";
-import HeadBar from "./components/common/layout/HeadBar";
+import vHead from "components/content/layout/Head";
+import vSide from "components/content/layout/Side";
 
 export default {
   name: 'app',
   components: {
-    Head,
-    HeadBar
+    vHead,
+    vSide
   }
 }
 </script>
 
 <style>
   @import "assets/css/base.css";
+
+  .content {
+    display: flex;
+    float: left;
+  }
 </style>

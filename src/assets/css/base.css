@@ -22,17 +22,6 @@ a {
 	text-decoration: none
 }
 
-.el-main {
-	position: absolute;
-	left: 220px;
-	right: 0;
-	top: 60px;
-	bottom: 0;
-	padding-bottom: 30px;
-	-webkit-transition: left .3s ease-in-out;
-	transition: left .3s ease-in-out;
-	background: #f0f0f0;
-}
 
 
 

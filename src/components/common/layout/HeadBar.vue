@@ -7,19 +7,19 @@
 </template>
 
 <script>
-  export default {
-    name: "Header"
-  }
+export default {
+  name: "Header"
+}
 </script>
 
 <style scoped>
-  .head-bar {
-    background-color: #242f42;
-    position: relative;
-    box-sizing: border-box;
-    width: 100%;
-    height: 60px;
-    font-size: 22px;
-    color: #fff;
-  }
+.head-bar {
+  background-color: #242f42;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  color: #fff;
+}
 </style>

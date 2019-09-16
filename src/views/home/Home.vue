@@ -5,14 +5,12 @@
 </template>
 
 <script>
-  import Layout from "components/content/layout/Layout";
 
-  export default {
-    name: "Home",
-    components: {
-      Layout
-    }
+export default {
+  name: "Home",
+  components: {
   }
+}
 </script>
 
 <style scoped>
