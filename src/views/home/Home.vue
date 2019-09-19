@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <h2>首页</h2>
+    <h2>首页dsafdsagsgaga </h2>
   </div>
 </template>
 
@@ -14,4 +14,8 @@ export default {
 </script>
 
 <style scoped>
+  .home {
+    width: 100%;
+    height: 100%;
+  }
 </style>

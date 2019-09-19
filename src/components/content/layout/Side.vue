@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="side">
     <side-bar v-for="item in items">
       <side-bar-item :item="item"></side-bar-item>
     </side-bar>
@@ -38,5 +38,11 @@ export default {
 </script>
 
 <style>
-
+  .side {
+    width: 200px;
+    height: 100%;
+    background: #3a3f51;
+    color: #ffffff;
+    overflow-y: auto;
+  }
 </style>

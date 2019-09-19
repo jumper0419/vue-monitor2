@@ -25,6 +25,8 @@ export default {
   @import "assets/css/base.css";
 
   .content {
+    width: 100%;
+    height: 100%;
     display: flex;
     float: left;
   }
